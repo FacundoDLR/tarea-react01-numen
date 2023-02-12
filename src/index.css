@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +15,78 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+section{
+  width: 900px;
+  margin: auto;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  align-content: center;
+}
+
+.sectionTitle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.sectionTitle h2{
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.sectionShow a{
+  cursor: pointer;
+  color: #333940;
+  padding: 0.533rem 0.933rem;
+  font-size: .8rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+}
+.material-symbols-outlined {
+  font-size: 1.1rem;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.travelCard{
+  width: 220px;
+  height: 380px;
+  display: grid;
+  place-items: center;
+}
+
+.travelImg{
+  width: 100%;
+  height: 310px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px 0px rgb(0 0 0 / 5%);
+}
+.travelImg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.travelDescription{
+  text-transform: capitalize;
+}
+.travelDescription h3{
+  font-size: 1.2rem;
+  margin: 1rem 0 0.5rem;
+  font-weight: 600;
+  line-height: 18px;
+}
+.travelDescription p{
+  color: #333940;
+  font-style: italic;
+  font-size: .8rem;
 }
