@@ -1,10 +1,10 @@
 import React from 'react'
-import destino06 from '../images/destino06.jpg'
+// import destino06 from '../images/destino06.jpg'
 
-const TravelImg = () => {
+const TravelImg = (props) => {
   return (
     <div className='travelImg'>
-        <img src={destino06} alt="" />
+        <img src={props.destinos.img} alt="" />
     </div>
   )
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 
-const TravelDescription = () => {
+const TravelDescription = (props) => {
   return (
     <div className='travelDescription'>
-        <h3>Titulo</h3>
-        <p>Descriptcion</p>
+        <h3>{props.destinos.title}</h3>
+        <p>{props.destinos.description}</p>
     </div>
   )
 }

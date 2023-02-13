@@ -18,7 +18,7 @@ code {
 }
 
 section{
-  width: 900px;
+  width: 1100px;
   margin: auto;
   height: 100vh;
   display: grid;
@@ -56,6 +56,11 @@ section{
   'opsz' 48
 }
 
+.travelList{
+  display: flex;
+  gap: .5rem;
+}
+
 .travelCard{
   width: 220px;
   height: 380px;
@@ -89,4 +94,8 @@ section{
   color: #333940;
   font-style: italic;
   font-size: .8rem;
+}
+
+.credit{
+  margin-top: 3rem;
 }
