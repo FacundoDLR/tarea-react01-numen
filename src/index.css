@@ -67,6 +67,9 @@ section{
   display: grid;
   place-items: center;
 }
+.travelCard:hover img{
+  scale: 1.03;
+}
 
 .travelImg{
   width: 100%;
@@ -79,6 +82,7 @@ section{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: 300ms all; 
 }
 
 .travelDescription{
