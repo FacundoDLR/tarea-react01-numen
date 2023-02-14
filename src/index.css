@@ -99,3 +99,43 @@ section{
 .credit{
   margin-top: 3rem;
 }
+
+@media screen and (max-width: 480px) {
+  section{
+    width: 400px;
+  }
+  .sectionTitle{
+    padding: 0 1rem;
+  }
+  .sectionTitle h2{
+    font-size: 1.5rem;
+  }
+  .travelList{
+    width: 400px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    gap: .8rem;
+  }
+  .travelCard{
+    width: 190px;
+    display: block;
+    height: auto;
+  }
+  .travelImg{
+    width: auto;
+  }
+  .travelImg img{
+    width: 200px;
+  }
+  .credit{
+    width: 100%;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  
+}
